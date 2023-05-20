@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,400&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ########### container section ############ */
+.main {
+  height: 100vh;
+  background: linear-gradient(rgba(64, 64, 64, 0.8), rgba(71, 71, 71, 0.8)),
+    url("assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 2.8rem;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ########### container section ############ */
+
+/* ######### NAV BAR ########### */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.list li {
+  list-style: none;
+  font-size: 1.8rem;
+  color: #f9a825;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f9a825;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #ef5350;
+}
+/* ######### NAV BAR ########### */
+
+/* ############ BTN UTILITY CLASS ############ */
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+.button-small {
+  background-color: #ef5350;
+}
+.button-large {
+  background-color: #ef5350;
+  padding: 1.5rem 3.5rem;
+}
+
+/* ############ BTN UTILITY CLASS ############ */
+
+/* ############# HERO SECTION ############# */
+section[aria-label="hero"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  right: 5rem;
+  margin: 20px; /* Adjust the margin as needed */
+}
+
+.bottom img {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+}
+.hero-heading {
+  font-size: 8rem;
+  color: #f9a825;
+  padding: 2rem 1rem;
+  text-align: center;
+  line-height: 1.2;
+  width: 80%;
+  margin: auto;
+}
+
+/* ############# HERO SECTION ############# */
